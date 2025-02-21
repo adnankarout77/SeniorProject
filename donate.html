@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate - United Hope</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Back Button -->
+      <a href="home.html" class="back-button">←</a>
+
+      <h2>Donate</h2>
+
+      <!-- Donation Description -->
+      <label class="section-title">Donation Description</label>
+      <textarea placeholder="Enter details about your donation"></textarea>
+
+      <!-- Location Input -->
+      <div class="location-section">
+        <label class="section-title">Location</label>
+        <span class="location-text">Current location</span>
+      </div>
+      <div class="location-box">
+        <img src="images/location.png" alt="Location Icon" />
+        <span>Enter your location here</span>
+      </div>
+
+      <!-- Category & Quantity -->
+      <div class="options">
+        <div class="category">
+          <label class="section-title">Category</label>
+          <label><input type="checkbox" /> Food</label>
+          <label><input type="checkbox" /> Money</label>
+          <label><input type="checkbox" /> Meds</label>
+        </div>
+
+        <div class="quantity">
+          <label class="section-title">quantity</label>
+          <input type="number" placeholder="Enter quantity" />
+        </div>
+      </div>
+
+      <!-- Amount (If Money) -->
+      <div class="amount-section">
+        <label class="section-title">Amount (if money)</label>
+        <input type="number" placeholder="$0.00" />
+      </div>
+
+      <!-- Drop Off Type -->
+      <div class="pickup">
+        <label class="section-title">Drop Off Type</label>
+        <label><input type="checkbox" checked /> Self Drop</label>
+        <label><input type="checkbox" /> Volunteer Needed</label>
+      </div>
+
+      <!-- Submit Button -->
+      <button class="add-post-btn">Add Post</button>
+    </div>
+  </body>
+</html>
