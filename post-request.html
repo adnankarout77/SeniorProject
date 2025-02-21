@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Request - United Hope</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Back Button -->
+      <a href="home.html" class="back-button">←</a>
+
+      <h2>Post request</h2>
+
+      <!-- Description Input -->
+      <label class="section-title">Add description</label>
+      <textarea placeholder="Example: 5 meals needed"></textarea>
+
+      <!-- Location Input -->
+      <div class="location-section">
+        <label class="section-title">Location</label>
+        <span class="location-text">Current Location</span>
+      </div>
+      <div class="location-box">
+        <img src="images/location.png" alt="Location Icon" />
+        <span>Monterey, Cali</span>
+      </div>
+
+      <!-- Categories -->
+      <div class="options">
+        <div class="category">
+          <label class="section-title">Category</label>
+          <label><input type="checkbox" checked /> Food</label>
+          <label><input type="checkbox" /> Money</label>
+          <label><input type="checkbox" /> Meds</label>
+          <label><input type="checkbox" /> Clothing</label>
+        </div>
+
+        <!-- Urgency -->
+        <div class="urgency">
+          <label class="section-title">Urgency</label>
+          <label><input type="checkbox" /> High</label>
+          <label><input type="checkbox" /> Medium</label>
+          <label><input type="checkbox" /> Low</label>
+        </div>
+      </div>
+
+      <!-- Pickup Type -->
+      <div class="pickup">
+        <label class="section-title">Pickup Type</label>
+        <label><input type="checkbox" /> Self Pickup</label>
+        <label><input type="checkbox" /> Volunteer Needed</label>
+      </div>
+
+      <!-- Submit Button -->
+      <button class="add-post-btn">Add Post</button>
+    </div>
+  </body>
+</html>
